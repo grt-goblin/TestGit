@@ -45,8 +45,12 @@ to read about a specific subcommand or concept.
 $ git config --global user.name "TheGreatGoblin"
 $ git config --global user.email grt.goblin@gmail.com
 $ git clone https://github.com/grt-goblin/TestGit.git
+************DEMO: Add/Commit file(After creating file inside master dir)*************************
 $ git add git_commands.txt
 $ git status
 $ git commit -m "First comment" git_commands.txt
 $ git push -u origin master
-
+************DEMO: Modify/Commit file(After modifing file inside master dir)***********************
+$ git status
+$ git commit -m "Second comment" git_commands.txt
+$ git push -u origin master

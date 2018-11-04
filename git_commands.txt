@@ -40,3 +40,13 @@ collaborate (see also: git help workflows)
 'git help -a' and 'git help -g' list available subcommands and some
 concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
+
+************DEMO: Clone Repo (Insdie the master dir)*********************************************
+$ git config --global user.name "TheGreatGoblin"
+$ git config --global user.email grt.goblin@gmail.com
+$ git clone https://github.com/grt-goblin/TestGit.git
+$ git add git_commands.txt
+$ git status
+$ git commit -m "First comment" git_commands.txt
+$ git push -u origin master
+
